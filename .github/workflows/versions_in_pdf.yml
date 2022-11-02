@@ -10,9 +10,14 @@ on:
 
 jobs:
   converttopdf:
+    
+        
     name: Build Pub PDF
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
       - name: Install pandoc   
         run: sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
       
