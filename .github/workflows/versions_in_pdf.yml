@@ -1,7 +1,7 @@
 name: docs to pdf
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       document_name:
         description: 'the document to publish'
