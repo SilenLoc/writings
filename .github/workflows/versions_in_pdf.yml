@@ -23,10 +23,10 @@ jobs:
 
      # The markdown file to render,path is relative to repository
      # make sure that images are also relative to the root in the file
-          paper_markdown: pub/out/${{ inputs.document }}.md
+          paper_markdown: pub/out/${{ inputs.document_name }}.md
 
      # The paper pdf to save
-          paper_outfile: pub/out/${{ inputs.document }}.pdf
+          paper_outfile: pub/pdfs/${{ inputs.document_name }}.pdf
 
      # Bibliography file, if existing
           #bibtex: paper/paper.bib
