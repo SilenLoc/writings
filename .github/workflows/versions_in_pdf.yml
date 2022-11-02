@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'pub/**.md'
+      - 'pub/out/**.md'
       - 'pub/images/**'
 
 jobs:
