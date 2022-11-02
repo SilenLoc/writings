@@ -16,6 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
+      - name: Install xetex
+        run: sudo apt-get install texlive-xetex
+        
       - name: Install pandoc   
         run: sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
       
