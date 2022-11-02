@@ -27,3 +27,6 @@ jobs:
         env:
           DOCUMENT_NAME: ${{ inputs.document_name }}
           WORKSPACE: ${{ github.workspace }}
+          
+      - name: push
+        run: git push
