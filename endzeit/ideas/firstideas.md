@@ -75,3 +75,21 @@
 - Ist die Endzeit eine Periode über Tage, also Zeitspanne, oder eher der eigentliche Zeitpunkt der Endzeit selbst.
 - Wann fängt die Endzeit an?
 - Wann ist die Endzeit zu Ende?
+- Straftaten:
+	* Unfair
+	* Rachewünsche
+	* Macht
+- Stürme:
+	* Untergang
+	* Überschwemmungen
+	* Ohne Rücksicht, die Natur macht was sie will.
+- Weltuntergangbestimmung / Endzeitstimmung:
+	* Wirklich? haben wir das? Wer hat das?
+	* Eine stimmung geht vorbei.
+	* Ist das nicht eine Depression der Gesellschaft
+	* War es mal schlimmer? 
+	* Hatten die Menschen in den Kriegen auch eine Endzeitstimmung?
+	* Nüchtern gesehen ist das auch nur ein westliches Gefühl, oder wer hat diese Stimmung?
+	* Viele Völker der Erde hatten durchgehen eine Weltuntergang Stimmung
+	* "oh nein es herscht Krieg, Armut, hunger, die Welt muss untergehen" obwohl die für viele die Realität ist und sein wird bis sie sterben.
+	 
