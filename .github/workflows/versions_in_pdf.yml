@@ -1,0 +1,29 @@
+name: docs to pdf
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pub/**.md'
+      - 'pub/images/**'
+
+jobs:
+  converttopdf:
+    name: Build Pub PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: pub
+          output_dir: pdfs
+          images_dir: pub/images
+          # for example <img src="./images/file-name.png">
+          image_import: ./images
+          # Default is true, can set to false to only get PDF files
+          build_html: false
+      - uses: actions/upload-artifact@v1
+        with:
+          name: pub
+          path: pdfs
