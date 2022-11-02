@@ -1,29 +1,44 @@
 name: docs to pdf
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'pub/out/**.md'
-      - 'pub/images/**'
+  workflow_call:
+    inputs:
+      document_name:
+        description: 'the document to publish'
+        required: true
+        type: string
 
 jobs:
   converttopdf:
     name: Build Pub PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_dir: pub
-          output_dir: pdfs
-          images_dir: pub/images
-          # for example <img src="./images/file-name.png">
-          image_import: ./images
-          # Default is true, can set to false to only get PDF files
-          build_html: false
-      - uses: actions/upload-artifact@v1
-        with:
-          name: pub
-          path: pdfs
+       # See https://github.com/rseng/pdf-generator for release
+      - name: Generate Full PDF   
+        uses: rseng/pdf-generator@master
+        with:        
+
+     # The latex template to use (defaults to one here)
+          #latex_template: templates/latex.template.joss
+
+     # The markdown file to render,path is relative to repository
+     # make sure that images are also relative to the root in the file
+          paper_markdown: pub/out/${{ inputs.document }}.md
+
+     # The paper pdf to save
+          paper_outfile: pub/out/${{ inputs.document }}.pdf
+
+     # Bibliography file, if existing
+          #bibtex: paper/paper.bib
+
+     # A path to a png logo file
+          #png_logo: paper/sorse.png
+
+     # One of "minimal" or "pdf" for the template with image, etc.
+          pdf_type: pdf
+
+     # A variables file to use
+          #variables_file: templates/joss-variables.txt
+ 
+     # A mapping file to use
+          #mapping_file: templates/joss-mapping.txt
