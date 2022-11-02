@@ -13,11 +13,10 @@ jobs:
     name: Build Pub PDF
     runs-on: ubuntu-latest
     steps:
-       # See https://github.com/rseng/pdf-generator for release
       - name: Install pandoc   
         run: sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
       
       - name: convert
-        run: ./pandoc pub/out/$DOCUMENT_NAME.md -o ./pub/pdfs/$DOCUMENT_NAME.pdf 
+        run: pandoc ./pub/out/$DOCUMENT_NAME.md -o ./pub/pdfs/$DOCUMENT_NAME.pdf 
         env:
           DOCUMENT_NAME: ${{ inputs.document_name }}
