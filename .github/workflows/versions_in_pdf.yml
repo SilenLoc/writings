@@ -23,4 +23,4 @@ jobs:
         run: pandoc $WORKSPACE/pub/out/$DOCUMENT_NAME.md -o $DOCUMENT_NAME.pdf 
         env:
           DOCUMENT_NAME: ${{ inputs.document_name }}
-          WORKSPACE: ${{ GITHUB_WORKSPACE }}
+          WORKSPACE: ${{ github.GITHUB_WORKSPACE }}
