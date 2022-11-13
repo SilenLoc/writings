@@ -92,4 +92,6 @@
 	* Nüchtern gesehen ist das auch nur ein westliches Gefühl, oder wer hat diese Stimmung?
 	* Viele Völker der Erde hatten durchgehen eine Weltuntergang Stimmung
 	* "oh nein es herscht Krieg, Armut, hunger, die Welt muss untergehen" obwohl die für viele die Realität ist und sein wird bis sie sterben.
-	 
+	* MahlZeit  
+Endzeit Kind
+

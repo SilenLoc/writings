@@ -22,4 +22,25 @@ Ich habe über die Endzeit und über *"Und warum haben wir eigentlich alle Endze
  > 5. Hat es schonmal Endzeitstimmung gegeben?
  > 6. Woher kommt der Begriff Endzeit?
  > 7. More :)
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 
+ <br>
+
+### Wo in der Zeit ist der Anfang und das Ende der Endzeit?
+
+Der Anfang der Endzeit dürfte wohl nicht ein Zeitpunkt sein, wohl eher ein Einläuten, die Morgendämmerung vom letzen Tag, der letzen Woche, des letzen Monats, des letzen Jahres. 
