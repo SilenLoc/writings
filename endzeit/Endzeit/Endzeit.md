@@ -1,7 +1,7 @@
 
 # Unsere Endzeit
 ### Essay über die "Endzeit" 
-#### im Rahmen des Einrichung von "ein_totentanz OPEN CALL Endzeiten"
+#### im Rahmen des Einreichung von "ein_totentanz OPEN CALL Endzeiten"
 <Br>
 <Br>
 <Br>
