@@ -9,7 +9,7 @@
 <Br>
 <Br>
 
-## Motivation
+## Motivation:
 Ich habe über die Endzeit und über *"Und warum haben wir eigentlich alle Endzeitstimmung"* [1] viel nachgedacht - ich bin immer noch am nachdenken - jedoch lassen mich mehrere Fragen nicht los die ich mir dabei gestellt habe. Ich möchte in diesem Essay meine Suche nach den Antworten in geordneter Form darstellen. 
 
 
